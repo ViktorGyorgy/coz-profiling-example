@@ -24,3 +24,6 @@ Multithreaded: ```g++ -Wall .\file_parser.cpp -o parser_multi_thread.exe -std=c+
 Single threaded: ```Measure-Command { .\parser_single_thread.exe } | FINDSTR 'TotalSeconds .*'```<br>
 Multithreaded: ```Measure-Command { .\parser_multi_thread.exe } | FINDSTR 'TotalSeconds .*'```
 
+# Results
+To compare singl
+
