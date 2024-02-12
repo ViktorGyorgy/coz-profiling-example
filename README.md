@@ -1,5 +1,5 @@
 # Multithreaded log parser
-A project which shows the 10 most requested static image of a REST API.  I used regex to get the path of static images from the string. The original log file has around 3GB, in the project I used the first 100000 lines.
+A project which shows the 10 most requested static image of a REST API.  I used regex to get the path of static images from the string. The original log file has around 3GB, in the project I used the first 100000 lines of the file.
 
 # Multithreaded and single threaded
 Written both solutions, to compare results (if multithreaded gives right answer) and runtimes. In the multithreaded app, the regex matching and counting of images was done by different threads.  
