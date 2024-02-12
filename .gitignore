@@ -1,0 +1,4 @@
+*.exe
+.vs
+.vscode
+access_all.log
