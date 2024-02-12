@@ -1,5 +1,5 @@
 # Multithreaded log parser
-A project which shows the 10 most requested static image of a REST API. The original log file has around 3GB, downsized it to 100_000 lines for faster runtime and to upload it to github.
+A project which shows the 10 most requested static image of a REST API. The original log file has around 3GB, downsized it to 100_000 lines for faster runtime and to be able to upload it to GitHub.
 
 # Multithreaded and single threaded
 Written both solutions, to compare results (if multithreaded gives right answer) and runtimes.  The multithreaded version is around 4 times faster.
@@ -25,5 +25,5 @@ Single threaded: ```Measure-Command { .\parser_single_thread.exe } | FINDSTR 'To
 Multithreaded: ```Measure-Command { .\parser_multi_thread.exe } | FINDSTR 'TotalSeconds .*'```
 
 # Results
-To compare singl
+You can check that the multithreaded version works well by comparing the contents of results.txt and results_sequential.txt. 
 
