@@ -1,8 +1,9 @@
 # Multithreaded log parser
-A project which shows the 10 most requested static image of a REST API. The original log file has around 3GB, downsized it to 100_000 lines for faster runtime and to be able to upload it to GitHub.
+A project which shows the 10 most requested static image of a REST API.  I used regex to get the path of static images from the string. The original log file has around 3GB, in the project I used the first 100000 lines.
 
 # Multithreaded and single threaded
-Written both solutions, to compare results (if multithreaded gives right answer) and runtimes.  The multithreaded version is around 4 times faster.
+Written both solutions, to compare results (if multithreaded gives right answer) and runtimes. In the multithreaded app, the regex matching and counting of images was done by different threads.  
+The multithreaded version is around 4 times faster:
 <img src="https://github.com/ViktorGyorgy/multithread-log-parser/blob/main/screenshots/times_to_run.png"> <br>
 
 # Concurrent queue
