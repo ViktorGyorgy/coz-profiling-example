@@ -52,7 +52,7 @@ int main()
     ifs.close();
 
     std::vector<std::pair<std::string, int>> incidence_sorted = ten_most_popular_static_images(incidence_map);
-    std::ofstream ofs("results_test_sequential.txt");
+    std::ofstream ofs("results_sequential.txt");
     for(auto it= incidence_sorted.begin(); it != incidence_sorted.end(); it++)
     {
         ofs << it->first << " " << it->second << std::endl;

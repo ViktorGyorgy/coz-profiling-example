@@ -1,0 +1,10 @@
+/static/images/guarantees/goodShopping.png 711
+/static/images/guarantees/bestPrice.png 699
+/static/images/guarantees/warranty.png 696
+/static/images/guarantees/support.png 684
+/static/images/guarantees/fastDelivery.png 682
+/static/images/amp/instagram.png 631
+/static/images/amp/telegram.png 630
+/static/images/amp/blog.png 624
+/static/images/amp/third-party/footer-mobile.png 391
+/static/images/third-party/footer.png 251
